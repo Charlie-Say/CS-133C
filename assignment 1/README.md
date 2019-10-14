@@ -41,10 +41,10 @@ Weekly Report
 1.2 - The lesson for this week was to learn about the data types that exists in C language.
 
 1.4.1 - One of the problems I had was understanding specifiers. I did further research on it to fully understand
-        how it works.
+how it works.
 1.4.4 - Understanding specifiers was one of the major adjustments I had to make since the only other language I've used
-        was python.
+was python.
 1.4.5 - Some of the details that someone might miss would be about actually understanding the data types, when to use them
-        and when it isn't necessary.
+and when it isn't necessary.
 1.4.6 - Google. It helped me understand the syntax needed and how to use the data types.
 1.4.7 - Yes. I think that getting acquainted with this subject will help in future projects and will be used quite frequently.
