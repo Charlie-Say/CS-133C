@@ -16,7 +16,7 @@ int main()
     float my_float = 33.145;
     double my_double = 3.134234234232;
     long double long_double = 1.343e+54; //i have no idea how this works
-    
+
     printf("My char is: %c\n", ran_char);
     printf("My signed char is: %c\n", signed_char);
     printf("My unsigned char is: %c\n", unsigned_char);
@@ -30,7 +30,6 @@ int main()
     printf("My float is: %f\n", my_float);
     printf("My double is: %lf\n", my_double);
     printf("My long double is: %Lg\n", long_double);
-
 
     return 0;
 }
