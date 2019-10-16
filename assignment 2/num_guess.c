@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <string.h> //found at https://cboard.cprogramming.com/c-programming/48313-if-statements-using-strings-condition.html
 
 int main(void)
 {
@@ -26,6 +25,12 @@ int main(void)
       printf("Guess the secret number between the range of %d - %d: ", low, high);
       scanf("%d", &num_guess);
 
+      if (num_guess < low || num_guess > high)
+      {
+        printf("GUESS IS OUT OF RANGE! \n");
+        continue;
+      }
+
       if (num_guess == secret_num)
       {
         printf("Congratulations!");
@@ -43,10 +48,11 @@ int main(void)
         printf("Your guess is too high.\n");
         high = num_guess - 1;
       }
+      
 
       printf("You have %d guesses left.\n", i - 1);
     }
-    printf("GAME OVER.\n");
+    printf("GAME OVER. The secret number was %d. \n", secret_num);
     printf("Do you want to play again? y/n: ");
     scanf(" %c", &play_again);
 
