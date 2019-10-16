@@ -1,5 +1,17 @@
 #include <stdio.h>
 
+// -accept and stores secret number into a variable
+
+// use a loop to repeatedly do:
+// range of possible numbers
+// tell users how many guesses left
+// ask user to guess the secret number
+// tell the user whether the guess is too high, low, or correct (using if statement)
+// change the range of possible numbers to reflect the effect of the users guess
+// tell the second user whether they guessed the number or ran out of guesses
+// if out of guesses, tell the secret number and how close their guess wa. otherwise, print 'congratulations'
+// let the users play again if they want to 
+
 int main(void)
 {
   char play_again;
@@ -59,14 +71,3 @@ int main(void)
   } while (play_again == 'y' || play_again == 'Y');
 }
 
-//-accept and stores secret number into a variable
-
-// use a loop to repeatedly do:
-// range of possible numbers
-// tell users how many guesses left
-// ask user to guess the secret number
-// tell the user whether the guess is too high, low, or correct (using if statement)
-// change the range of possible numbers to reflect the effect of the users guess
-// tell the second user whether they guessed the number or ran out of guesses
-// if out of guesses, tell the secret number and how close their guess wa. otherwise, print 'congratulations'
-// let the users play again if they want to
